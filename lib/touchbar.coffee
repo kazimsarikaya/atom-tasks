@@ -1,6 +1,6 @@
 tasks = require './tasksUtilities'
 
-{TouchBar} = require('remote')
+{TouchBar} = require('electron').remote
 {TouchBarButton, TouchBarSpacer} = TouchBar
 
 module.exports =
